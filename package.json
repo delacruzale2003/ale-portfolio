@@ -9,13 +9,19 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "clsx": "^2.1.1",
     "gh-pages": "^6.3.0",
+    "motion": "^12.23.12",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwind": "^4.0.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
