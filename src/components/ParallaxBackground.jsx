@@ -15,34 +15,34 @@ const ParallaxBackground = () => {
 
         <div className='absolute inset-0 w-full h-screen -z-50' 
         style={{
-            backgroundImage: "url('ale-portfolio/assets/sky.jpg')",
+            backgroundImage: "url('/ale-portfolio/assets/sky.jpg')",
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
         }}/>
         <div className='absolute inset-0  -z-40' 
         style={{
-            backgroundImage: "url('ale-portfolio/assets/mountain-3.png')",
+            backgroundImage: "url('/ale-portfolio/assets/mountain-3.png')",
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain3Y,
         }}/>
         <div className='absolute inset-0  -z-30' 
         style={{
-            backgroundImage: "url('ale-portfolio/assets/planets.png')",
+            backgroundImage: "url('/ale-portfolio/assets/planets.png')",
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             x: planetsX,
         }}/>
         <div className='absolute inset-0  -z-20' 
         style={{
-            backgroundImage: "url('ale-portfolio/assets/mountain-2.png')",
+            backgroundImage: "url('/ale-portfolio/assets/mountain-2.png')",
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain2Y,
         }}/>
         <div className='absolute inset-0  -z-10' 
         style={{
-            backgroundImage: "url('ale-portfolio/assets/mountain-1.png')",
+            backgroundImage: "url('/ale-portfolio/assets/mountain-1.png')",
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain1Y,
